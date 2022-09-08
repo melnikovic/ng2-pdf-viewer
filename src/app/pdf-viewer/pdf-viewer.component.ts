@@ -442,7 +442,7 @@ export class PdfViewerComponent
         : RenderTextMode.DISABLED,
       findController: this.pdfMultiPageFindController,
       renderer: 'canvas',
-      l10n: undefined,
+      l10n: 'en-US',
       imageResourcesPath: this._imageResourcesPath,
     };
 
@@ -501,7 +501,7 @@ export class PdfViewerComponent
         : RenderTextMode.DISABLED,
       findController: this.pdfSinglePageFindController,
       renderer: 'canvas',
-			l10n: undefined,
+			l10n: 'en-US',
     };
 
     this.pdfSinglePageViewer = new PDFJSViewer.PDFSinglePageViewer(pdfOptions);
